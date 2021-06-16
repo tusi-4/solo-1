@@ -1,0 +1,74 @@
+/* Colors */
+/* Fonts */
+/* Globals */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+a {
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Scrollbar */
+*::-webkit-scrollbar {
+  width: 15px;
+  background-color: pink;
+}
+
+*::-webkit-scrollbar-button {
+  height: 0px;
+  width: 0px;
+  background-color: #e3e3e3;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #e3e3e3;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: #979797;
+}
+
+*::-webkit-scrollbar-corner {
+  background: #e3e3e3;
+}
+
+.component--sidebar-menu-link {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  color: #bababa;
+  fill: #bababa;
+  border-left: 4px solid #191919;
+  background-color: #191919;
+}
+
+.component--sidebar-menu-link:hover, .component--sidebar-menu-link.active {
+  color: #ffffff;
+  fill: #ffffff;
+  border-left: 4px solid #f58220;
+  background-color: #333333;
+}
+
+.component--sidebar-menu-link p {
+  font-size: 13px;
+}
+
+.component--sidebar-menu-link svg {
+  max-height: 16px;
+  width: 16px;
+  margin: 15px 14px;
+}
+
+/*# sourceMappingURL=sidebar-menu-link.css.map */

@@ -1,0 +1,69 @@
+/* Colors */
+/* Fonts */
+/* Globals */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+a {
+  font-weight: 300;
+  color: #56819f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffa200;
+}
+
+/* Scrollbar */
+*::-webkit-scrollbar {
+  width: 15px;
+  background-color: pink;
+}
+
+*::-webkit-scrollbar-button {
+  height: 0px;
+  width: 0px;
+  background-color: #e3e3e3;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #e3e3e3;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: #979797;
+}
+
+*::-webkit-scrollbar-corner {
+  background: #e3e3e3;
+}
+
+.section--sidebar {
+  position: fixed;
+  height: 100%;
+  width: 190px;
+  overflow-y: auto;
+  background-color: #191919;
+}
+
+@media (max-width: 991px) {
+  .section--sidebar {
+    overflow: hidden;
+    width: 55px;
+  }
+  .hidden {
+    display: none;
+  }
+  .wide {
+    width: 190px;
+  }
+}
+
+/*# sourceMappingURL=sidebar.css.map */

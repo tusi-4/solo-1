@@ -1,0 +1,30 @@
+@import '../variables';
+
+.section--sidebar {
+	position: fixed;
+	height: 100%;
+	width: 190px;
+	overflow-y: auto;
+	background-color: $bg-darkest;
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 991px) {
+	.section--sidebar {
+		overflow: hidden;
+		width: 55px;;
+	}
+	.hidden {
+		display: none;
+	}
+	.wide {
+		width: 190px;
+	}
+}
+
+@media (max-width: 1199px) {
+
+}

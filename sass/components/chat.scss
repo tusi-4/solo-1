@@ -1,0 +1,42 @@
+@import '../variables';
+
+.component--chat {
+	padding: 35px 0;
+}
+
+.component--chat h1 {
+	font-size: $size-small;
+	color: $grey-dark;
+	margin: 0 0 15px 18px;
+}
+
+.component--chat .chat-user {
+	display: inline-flex;
+	align-items: center;
+	width: 100%;
+	padding: 3px 0;
+}
+
+.component--chat .avatar {
+	width: 43px;
+	margin: 0 18px;
+}
+
+.component--chat span {
+	font-size: $size-small;
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 991px) {
+ 	.component--chat .mini {
+ 		width: 30px;
+ 		margin: 0 10px;
+ 	}
+}
+
+@media (max-width: 1199px) {
+
+}

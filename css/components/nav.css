@@ -1,0 +1,79 @@
+/* Colors */
+/* Fonts */
+/* Globals */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+a {
+  font-weight: 300;
+  color: #56819f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffa200;
+}
+
+/* Scrollbar */
+*::-webkit-scrollbar {
+  width: 15px;
+  background-color: pink;
+}
+
+*::-webkit-scrollbar-button {
+  height: 0px;
+  width: 0px;
+  background-color: #e3e3e3;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #e3e3e3;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: #979797;
+}
+
+*::-webkit-scrollbar-corner {
+  background: #e3e3e3;
+}
+
+.component--sidebar-nav {
+  padding-bottom: 35px;
+  border-bottom: 0.25px solid #979797;
+}
+
+.component--sidebar-nav .nav-link {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  color: #979797;
+  border-left: 4px solid #191919;
+  fill: #979797;
+}
+
+.component--sidebar-nav .nav-link:hover, .component--sidebar-nav .nav-link.active {
+  color: #ffffff;
+  border-left: 4px solid #f58220;
+  background-color: #333333;
+  fill: #ffffff;
+}
+
+.component--sidebar-nav svg {
+  max-height: 14px;
+  width: 18px;
+  margin: 16px;
+}
+
+.component--sidebar-nav span {
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=nav.css.map */

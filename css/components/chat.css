@@ -1,0 +1,81 @@
+/* Colors */
+/* Fonts */
+/* Globals */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+a {
+  font-weight: 300;
+  color: #56819f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffa200;
+}
+
+/* Scrollbar */
+*::-webkit-scrollbar {
+  width: 15px;
+  background-color: pink;
+}
+
+*::-webkit-scrollbar-button {
+  height: 0px;
+  width: 0px;
+  background-color: #e3e3e3;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #e3e3e3;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: #979797;
+}
+
+*::-webkit-scrollbar-corner {
+  background: #e3e3e3;
+}
+
+.component--chat {
+  padding: 35px 0;
+}
+
+.component--chat h1 {
+  font-size: 13px;
+  color: #979797;
+  margin: 0 0 15px 18px;
+}
+
+.component--chat .chat-user {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  padding: 3px 0;
+}
+
+.component--chat .avatar {
+  width: 43px;
+  margin: 0 18px;
+}
+
+.component--chat span {
+  font-size: 13px;
+}
+
+@media (max-width: 991px) {
+  .component--chat .mini {
+    width: 30px;
+    margin: 0 10px;
+  }
+}
+
+/*# sourceMappingURL=chat.css.map */

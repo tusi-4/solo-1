@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "sidebar-link.css",
+	"sources": [
+		"../../sass/components/sidebar-link.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,aAAa,CAAC,CAAC,CAAC;EACd,gBAAgB,EAAE,MAAM;CACzB"
+}

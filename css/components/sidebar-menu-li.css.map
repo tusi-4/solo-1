@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "sidebar-menu-li.css",
+	"sources": [
+		"../../sass/components/sidebar-menu-li.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,aAAa,CAAC,CAAC,CAAC;EACd,gBAAgB,EAAE,MAAM;CACzB"
+}

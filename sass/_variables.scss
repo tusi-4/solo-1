@@ -32,6 +32,22 @@ $weight-bold: 700;
   box-sizing: border-box;
 }
 
+body {
+  font-family: Roboto, sans-serif;
+  font-size: $size-regular;
+  line-height: 1;
+}
+
+a {
+  font-weight: $weight-light;
+  color: $blue;
+  text-decoration: none;
+  &:hover {
+    color: $orange-light;
+  }
+}
+
+
 /* Scrollbar */
  
 *::-webkit-scrollbar {

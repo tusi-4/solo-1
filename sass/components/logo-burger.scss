@@ -1,0 +1,13 @@
+@import '../variables';
+
+.component--logo-burger {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 18px;
+}
+
+.component--logo-burger .hamburger {
+	height: 16px;
+}

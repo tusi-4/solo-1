@@ -1,0 +1,31 @@
+@import '../variables';
+
+.component--sidebar-nav {
+	padding-bottom: 35px;
+	border-bottom: 0.25px solid $grey-dark;
+}
+
+.component--sidebar-nav .nav-link {
+	display: inline-flex;
+	align-items: center;
+	width: 100%;
+	color: $grey-dark;
+	border-left: 4px solid $bg-darkest;
+	fill: $grey-dark;
+	&:hover, &.active {
+		color: #ffffff;
+		border-left: 4px solid $orange-dark;
+		background-color: $grey-darkest;
+		fill: #ffffff;
+	}
+}
+
+.component--sidebar-nav svg {
+	max-height: 14px;
+	width: 18px;
+	margin: 16px;
+}
+
+.component--sidebar-nav span {
+	font-size: $size-small;
+}
