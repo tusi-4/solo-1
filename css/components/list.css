@@ -65,57 +65,43 @@ a:hover {
   background: #e3e3e3;
 }
 
-.section--topbar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 60px;
+.component--list {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  z-index: 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin: 0;
-  padding: 0;
+  margin: 35px auto;
+}
+
+.component--list table {
+  width: 310px;
+  border-collapse: collapse;
+}
+
+.component--list tr {
   border-bottom: 0.25px solid #e3e3e3;
-  background-color: #ffffff;
 }
 
-.section--topbar .bar-link {
-  display: flex;
-  align-items: center;
-  max-height: 60px;
-  margin: 0;
-  padding: 20px;
-  border-left: 0.25px solid #e3e3e3;
+.component--list td {
+  padding: 15px 0 5px;
 }
 
-.section--topbar .bar-link:hover {
-  background-color: #f5f5f2;
-}
-
-.section--topbar svg {
-  height: 16px;
-  max-width: 16px;
-  fill: #979797;
-}
-
-.section--topbar span {
-  font-size: 13px;
-  margin-left: 15px;
-}
-
-.section--topbar .no-link {
-  font-size: 16px;
+.component--list td:nth-child(odd) {
   font-weight: 500;
   color: #979797;
-  margin-right: 15px;
+  text-align: left;
 }
 
-@media (max-width: 767px) {
-  .section--topbar {
-    display: none;
+.component--list td:nth-child(even) {
+  font-weight: 300;
+  color: #333333;
+  text-align: right;
+}
+
+@media (max-width: 991px) {
+  .component--list {
+    flex-direction: column;
   }
 }
 
-/*# sourceMappingURL=topbar.css.map */
+/*# sourceMappingURL=list.css.map */

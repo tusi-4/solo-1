@@ -1,0 +1,23 @@
+@import '../variables';
+
+.page--gs h3 {
+	width: 100%;
+	font-size: $size-regular;
+	font-weight: $weight-medium;
+	color: $grey-dark;
+	margin: 35px auto;
+}
+
+.chart {
+	max-width: 100%;
+	margin: 70px auto;
+}
+
+@media (max-width: 991px) {
+ 	.page--gs h3 {
+ 		margin-left: 15px;
+ 	}
+ 	.chart {
+ 		padding: 15px;
+ 	}
+}

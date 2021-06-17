@@ -23,6 +23,24 @@ a:hover {
   color: #ffa200;
 }
 
+.btn {
+  padding: 10px 15px;
+  border-radius: 3px;
+  color: #ffffff;
+  border: none;
+  background-color: #f58220;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #ffa200;
+}
+
+.btn svg {
+  fill: #ffffff;
+}
+
 /* Scrollbar */
 *::-webkit-scrollbar {
   width: 15px;
@@ -55,6 +73,7 @@ a:hover {
   width: 190px;
   overflow-y: auto;
   background-color: #191919;
+  z-index: 1;
 }
 
 @media (max-width: 991px) {

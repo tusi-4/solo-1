@@ -8,6 +8,7 @@
 	width: 190px;
 	overflow-y: auto;
 	background-color: $bg-darkest;
+	z-index: 1;
 }
 
 @media (max-width: 767px) {

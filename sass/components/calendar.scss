@@ -1,0 +1,59 @@
+@import "../variables";
+
+.component--calendar {
+  padding: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  border-bottom: 0.25px solid $grey-light;
+}
+
+.component--calendar fieldset {
+  border: 0.25px solid $grey-light;;
+  padding: 5px;
+  align-content: center;
+}
+
+.component--calendar input {
+  font-size: $size-small;
+  font-weight: $weight-light;
+  color: $grey-darkest;
+  border: none;
+  padding: 10px 25px 10px 10px;
+  border-right: 0.25px solid $grey-light;    
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.component--calendar .btn {
+  margin-left: 15px;
+}
+
+.component--calendar svg {
+  height: 16px;
+  width: 16px;
+}
+
+@media (max-width: 991px) {
+  .component--calendar fieldset {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+   padding: 10px;
+   margin: 0;
+  }
+  .component--calendar input {
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-bottom: 0.25px solid $grey-light;
+  }
+  .btn {
+    max-width: 100%;
+    padding: 20px;
+    margin: 5px 0;
+    text-align: center;
+  }
+}

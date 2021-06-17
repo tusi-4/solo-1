@@ -1,0 +1,35 @@
+@import '../variables';
+
+.component--chart {
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.component--chart .tab {
+	margin: 0 20px;
+	padding: 10px 15px;
+	color: $blue;
+	border-radius: 3px;
+	&:hover, &.selected {
+		color: $grey-dark;
+		background-color: $grey-lightest;
+	}
+}
+
+.component--chart .tab svg {
+	height: 16px;
+	width: 16px;
+	margin-right: 5px;
+	fill: $orange-light;
+}
+
+.component--chart .selected svg {
+	fill: $seagull;
+}
+
+@media (max-width: 991px) {
+	.component--chart .tab {
+		margin: 0 2px;
+	}
+}

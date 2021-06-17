@@ -49,6 +49,23 @@ a {
   }
 }
 
+.btn {
+  padding: 10px 15px;
+  border-radius: 3px;
+  color: #ffffff;
+  border: none;
+  background-color: $orange-dark;
+  &:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: $orange-light;
+  }
+}
+
+.btn svg {
+  fill: #ffffff;
+}
+
 
 /* Scrollbar */
  

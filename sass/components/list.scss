@@ -1,0 +1,38 @@
+@import '../variables';
+
+.component--list {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin: 35px auto;
+}
+
+.component--list table {
+	width: 310px;
+	border-collapse: collapse;
+}
+
+.component--list tr {
+	border-bottom: 0.25px solid $grey-light;
+}
+
+.component--list td {
+	padding: 15px 0 5px;
+	&:nth-child(odd) {
+	    font-weight: $weight-medium;
+	    color: $grey-dark;
+	    text-align: left;
+	}
+	&:nth-child(even) {
+	    font-weight: $weight-light;
+	    color: $grey-darkest;
+	    text-align: right;
+	}
+}
+
+@media (max-width: 991px) {
+ 	.component--list {
+ 		flex-direction: column;
+ 	}
+}

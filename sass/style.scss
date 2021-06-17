@@ -7,10 +7,15 @@
 @import "components/logo-burger";
 @import "components/nav";
 @import "components/chat";
+@import "components/calendar";
+@import "components/list";
+@import "components/chart";
 
 /* Sections */
 @import "sections/sidebar";
 @import "sections/topbar-ss";
-@import "Sections/topbar";
+@import "sections/topbar";
+@import "sections/main";
 
 /* Pages */
+@import "pages/gs";
