@@ -65,10 +65,6 @@ a:hover {
   background: #e3e3e3;
 }
 
-.page--links {
-  background-color: lightsteelblue;
-}
-
 .page--links .btn {
   margin: 15px auto;
 }
@@ -79,6 +75,9 @@ a:hover {
 }
 
 .page--links tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-top: 0.25px solid #bababa;
 }
 
@@ -94,27 +93,28 @@ a:hover {
   fill: #f58220;
 }
 
+.page--links tr:last-child {
+  border-bottom: 0.25px solid #bababa;
+}
+
 .page--links td {
-  height: 60px;
-  vertical-align: center;
-  padding: 0 15px;
+  padding: 10px 15px;
 }
 
 .page--links td:first-child {
   text-align: left;
-  width: 295px;
+  flex: 2.5;
   font-weight: 500;
   color: #979797;
 }
 
 .page--links td:nth-child(2) {
-  width: 295px;
+  flex: 2.5;
   text-align: left;
 }
 
 .page--links td:last-child {
-  width: 100px;
-  padding: 0 10px;
+  flex: 1;
   text-align: right;
 }
 
@@ -127,6 +127,14 @@ a:hover {
 
 .page--links svg:hover {
   cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .page--links tr {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
 }
 
 /*# sourceMappingURL=links.css.map */

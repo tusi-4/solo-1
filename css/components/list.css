@@ -102,6 +102,9 @@ a:hover {
   .component--list {
     flex-direction: column;
   }
+  .component--list table {
+    max-width: 90%;
+  }
 }
 
 /*# sourceMappingURL=list.css.map */

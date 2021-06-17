@@ -35,4 +35,7 @@
  	.component--list {
  		flex-direction: column;
  	}
+ 	.component--list table {
+ 		max-width: 90%;
+ 	}
 }
