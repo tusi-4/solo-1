@@ -1,0 +1,57 @@
+@import '../variables';
+
+.page--links {
+	background-color: lightsteelblue;
+}
+.page--links .btn {
+	margin: 15px auto;
+}
+
+.page--links table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.page--links tr {
+	border-top: 0.25px solid $grey-medium;
+  	&:hover {
+    	background-color: $grey-light;
+    	& svg {
+    		fill: $grey-dark;
+    		&:hover {
+    			fill: $orange-dark;
+    		}
+    	}
+  	}
+}
+
+.page--links td {
+  height: 60px;
+  vertical-align: center;
+  padding: 0 15px;
+  &:first-child {
+    text-align: left;
+    width: 295px;
+    font-weight: $weight-medium;
+    color: $grey-dark;
+  }
+  &:nth-child(2) {
+    width: 295px;
+    text-align: left;
+  }
+  &:last-child {
+    width: 100px;
+    padding: 0 10px;
+    text-align: right;
+ }
+}
+
+.page--links svg {
+  max-height: 16px;
+  width: 16px;
+  margin: 0 10px;
+  fill: #ffffff;
+  &:hover {
+  	cursor: pointer;
+  }
+}

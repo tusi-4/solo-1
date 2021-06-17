@@ -1,0 +1,132 @@
+/* Colors */
+/* Fonts */
+/* Globals */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #f5f5f2;
+  border-collapse: collapse;
+}
+
+a {
+  font-weight: 300;
+  color: #56819f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffa200;
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 3px;
+  color: #ffffff;
+  border: none;
+  background-color: #f58220;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #ffa200;
+}
+
+.btn svg {
+  fill: #ffffff;
+}
+
+/* Scrollbar */
+*::-webkit-scrollbar {
+  width: 15px;
+  background-color: pink;
+}
+
+*::-webkit-scrollbar-button {
+  height: 0px;
+  width: 0px;
+  background-color: #e3e3e3;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #e3e3e3;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: #979797;
+}
+
+*::-webkit-scrollbar-corner {
+  background: #e3e3e3;
+}
+
+.page--links {
+  background-color: lightsteelblue;
+}
+
+.page--links .btn {
+  margin: 15px auto;
+}
+
+.page--links table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.page--links tr {
+  border-top: 0.25px solid #bababa;
+}
+
+.page--links tr:hover {
+  background-color: #e3e3e3;
+}
+
+.page--links tr:hover svg {
+  fill: #979797;
+}
+
+.page--links tr:hover svg:hover {
+  fill: #f58220;
+}
+
+.page--links td {
+  height: 60px;
+  vertical-align: center;
+  padding: 0 15px;
+}
+
+.page--links td:first-child {
+  text-align: left;
+  width: 295px;
+  font-weight: 500;
+  color: #979797;
+}
+
+.page--links td:nth-child(2) {
+  width: 295px;
+  text-align: left;
+}
+
+.page--links td:last-child {
+  width: 100px;
+  padding: 0 10px;
+  text-align: right;
+}
+
+.page--links svg {
+  max-height: 16px;
+  width: 16px;
+  margin: 0 10px;
+  fill: #ffffff;
+}
+
+.page--links svg:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=links.css.map */
