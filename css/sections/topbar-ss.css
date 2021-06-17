@@ -47,13 +47,14 @@ a:hover {
   background: #e3e3e3;
 }
 
-.component--sidebar-nav {
-  padding-bottom: 35px;
-  border-bottom: 0.25px solid #979797;
+.section--topbar-ss {
+  padding: 35px 0;
+  border-top: 0.25px solid #979797;
 }
 
-.component--sidebar-nav .nav-link {
+.section--topbar-ss .ss-link {
   display: inline-flex;
+  justify-content: center;
   align-items: center;
   width: 100%;
   color: #979797;
@@ -61,21 +62,37 @@ a:hover {
   fill: #979797;
 }
 
-.component--sidebar-nav .nav-link:hover, .component--sidebar-nav .nav-link.active {
+.section--topbar-ss .ss-link:hover, .section--topbar-ss .ss-link.active {
   color: #ffffff;
   border-left: 4px solid #f58220;
   background-color: #333333;
   fill: #ffffff;
 }
 
-.component--sidebar-nav svg {
+.section--topbar-ss svg {
   max-height: 14px;
   width: 18px;
   margin: 16px;
 }
 
-.component--sidebar-nav span {
+.section--topbar-ss .ss-bold {
+  color: #979797;
+  font-weight: 500;
+}
+
+.section--topbar-ss span {
+  color: #56819f;
   font-size: 13px;
 }
 
-/*# sourceMappingURL=nav.css.map */
+.section--topbar-ss span:hover {
+  color: #ffa200;
+}
+
+@media (min-width: 768px) {
+  .section--topbar-ss {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=topbar-ss.css.map */

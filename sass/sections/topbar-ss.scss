@@ -1,0 +1,46 @@
+@import '../variables';
+
+.section--topbar-ss {
+	padding: 35px 0;
+	border-top: 0.25px solid $grey-dark;
+}
+
+.section--topbar-ss .ss-link {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	color: $grey-dark;
+	border-left: 4px solid $bg-darkest;
+	fill: $grey-dark;
+	&:hover, &.active {
+		color: #ffffff;
+		border-left: 4px solid $orange-dark;
+		background-color: $grey-darkest;
+		fill: #ffffff;
+	}
+}
+
+.section--topbar-ss svg {
+	max-height: 14px;
+	width: 18px;
+	margin: 16px;
+}
+
+.section--topbar-ss .ss-bold {
+	color: $grey-dark;
+	font-weight: $weight-medium;
+}
+.section--topbar-ss span {
+	color: $blue;
+	font-size: $size-small;
+	&:hover {
+		color: $orange-light;
+	}
+}
+
+@media (min-width: 768px) {
+	.section--topbar-ss {
+		display: none;
+	}
+}

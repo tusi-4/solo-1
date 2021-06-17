@@ -36,6 +36,8 @@ body {
   font-family: Roboto, sans-serif;
   font-size: $size-regular;
   line-height: 1;
+  background-color: $grey-lightest;
+  border-collapse: collapse;
 }
 
 a {
