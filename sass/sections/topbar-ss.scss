@@ -1,21 +1,18 @@
 @import '../variables';
 
 .section--topbar-ss {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	padding: 35px 0;
 	border-top: 0.25px solid $grey-dark;
 }
 
 .section--topbar-ss .ss-link {
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	color: $grey-dark;
-	border-left: 4px solid $bg-darkest;
+	margin: 2px;
 	fill: $grey-dark;
 	&:hover, &.active {
 		color: #ffffff;
-		border-left: 4px solid $orange-dark;
 		background-color: $grey-darkest;
 		fill: #ffffff;
 	}

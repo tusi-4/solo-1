@@ -48,23 +48,20 @@ a:hover {
 }
 
 .section--topbar-ss {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 35px 0;
   border-top: 0.25px solid #979797;
 }
 
 .section--topbar-ss .ss-link {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  color: #979797;
-  border-left: 4px solid #191919;
+  margin: 2px;
   fill: #979797;
 }
 
 .section--topbar-ss .ss-link:hover, .section--topbar-ss .ss-link.active {
   color: #ffffff;
-  border-left: 4px solid #f58220;
   background-color: #333333;
   fill: #ffffff;
 }
